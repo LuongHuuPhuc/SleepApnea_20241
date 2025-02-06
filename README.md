@@ -5,7 +5,7 @@
 * Dự án thực hiện để chuẩn đoán người mắc chứng "Ngưng Thở" (Sleep Apnea) khi ngủ
 ***
 ***Hardware và Software***
-1. MCU Esp32
+**1. MCU Esp32**
    * 4MB bộ nhớ Flash
    * 448KB bộ nhớ ROM
    * 520KB bộ nhớ SRAM
@@ -14,7 +14,7 @@
    ---
    ![image](https://github.com/user-attachments/assets/62cba73e-3d17-49de-bc7a-c4a977da22d7)
    ---
-3. Cảm biến INMP441
+**2. Cảm biến INMP441**
    * Độ phân giải dữ liệu có thể thu được là 24-bit
    * Hỗ trợ 2 kênh dữ liệu trái phải (MONO và STEREO), mỗi kênh 32-bit dữ liệu
    * Giao tiếp theo chuẩn I2S (Inter IC Sound)
@@ -22,7 +22,7 @@
    ---
   ![image](https://github.com/user-attachments/assets/acaae52e-ac4d-4ab9-967f-c5e09cc1c63d)
   ---
-4. Cảm biến MAX30102
+**3. Cảm biến MAX30102**
    * Độ phân giải phụ thuộc vào bộ ADC, tối đa lên tớ 18-bit
    * Giao tiếp theo chuẩn giao thức truyền thông nối tiếp I2C (Inter Integrated Circuit)
    * Hoạt động tốt ở dải 0,5Hz - 5Hz
@@ -31,19 +31,19 @@
    ---
  ![image](https://github.com/user-attachments/assets/7098881a-031f-4aa7-83fe-95745adaab84)
  ---
-5. Module thẻ nhớ SD
+**4. Module thẻ nhớ SD**
    * Sử dụng giao thức truyền thông đồng bộ SPI (Serial Peripheral Interface)
    ---
 ![image](https://github.com/user-attachments/assets/9d934c58-a4e7-4051-beb1-621e56522a6a)
 ---
-6. Màn hình OLED 0.96 inch SSD1306
+**5. Màn hình OLED 0.96 inch SSD1306**
    * Sử dụng giao thức truyền thông nối tiếp I2C
    * Số điểm hiển thị 128x64 điểm
    * Driver: SSD1306
   ---
   ![image](https://github.com/user-attachments/assets/e013fb40-f03b-4b9e-ad67-e852a17fe478)
   ---
-7. Phần mềm hỗ trợ lập trình firmware
+**6. Phần mềm hỗ trợ lập trình firmware**
    * Framework ESP-IDF
    * Arduino IDE
    ---
