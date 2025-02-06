@@ -5,6 +5,7 @@
 * Dự án thực hiện để chuẩn đoán người mắc chứng "Ngưng Thở" (Sleep Apnea) khi ngủ
 ***
 ***Hardware và Software***
+---
 **1. MCU Esp32**
    * 4MB bộ nhớ Flash
    * 448KB bộ nhớ ROM
