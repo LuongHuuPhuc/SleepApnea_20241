@@ -241,7 +241,6 @@
 #include "esp_vfs_fat.h"
 #include "sdmmc_cmd.h"
 #include "driver/sdmmc_types.h"
-#include "sdcard.h"
 
 //Thu vien cho SPI        
 #include <driver/spi_common.h>
